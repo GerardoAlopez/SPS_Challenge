@@ -151,4 +151,34 @@ Results
 ![image](https://user-images.githubusercontent.com/101696287/185031138-5285131e-29cf-4094-87e9-4293cb7f181b.png)
 
 
-TASK C. Realizar un tablero para visualizar información de empleados 
+TASK C. Realizar un tablero para visualizar información de empleados
+
+1. Vista de heat map, donde mostraras el número de servicios realizados por administrador.
+
+Para esta parte tuve el problema donde los datos me aparecian sin ningun valor. Esto se debio a que el rango del timestamp esta fuera de rango. En este problema dure alrededor de una hora buscando documentacion y en foros como StackOverflow. Lo bueno de la GUI de Kibana que es muy interactiva y como tengo background usando Cogno Analytics la cual tiene la misma intefaz de usuario se me hizo bastante facil realizar las vizualizaciones. 
+
+![image](https://user-images.githubusercontent.com/101696287/185042676-2a22db6d-394c-48ae-aa5c-ba73e53f6dca.png)
+
+Una vez cambiado estos filtros donde solamente coloque la fecha que correspondia los datos del timestamp los datos se pusieron como disponibles.
+
+Metiendo correctamente los datos en eje y y x, obtenemos el siguiente Heat Map:
+
+![image](https://user-images.githubusercontent.com/101696287/185044204-ff0a397d-7bfb-490a-a046-4680e0b68650.png)
+
+2. Vista de Barras, donde se grafique el número de registros con estado_consulta igual a error a través
+del tiempo.
+
+Obtenemos:
+
+
+![image](https://user-images.githubusercontent.com/101696287/185048239-a461b978-0733-4241-bd30-521cb4212012.png)
+
+
+##EXTRA. genera un tablero con las 2 visualizaciones que acabas de crear.
+
+Creacion del dashboard con las dos visualizaciones creadas en la tarea anterior 
+
+![image](https://user-images.githubusercontent.com/101696287/185048546-fe74e54c-3df7-4ce9-a09f-741acc122612.png)
+
+https://sps-test.kb.us-east-2.aws.elastic-cloud.com:9243/app/r/s/edrsH
+
