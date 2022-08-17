@@ -135,6 +135,20 @@ Results
 
 ![image](https://user-images.githubusercontent.com/101696287/185028721-94aa45e5-8ca8-4cd4-b0be-06bb663f920d.png)
 
+4. Obtener la suma de los valores en consultas_realizadas con estado_consulta igual a error
+Este query ocupa del metodo de agregacion por lo cual es otro forma en la que se puede consultar los datos en elasticSearch
+
+NOTA: Algo que en este punto logre comprender que ElasticSearch es un base de datos NoSQL del tipo documento. Es decir, que los datos son almacenados como documentos donde cada dato es considerado un "documento", son almacenados en forma de JSON o XML. Ademas de que ElasticSearch tiene escalacion horizontal, quiere decir, que podemos agregar cluters o nodos para aumentar la capacidad de almacenamiento.
+
+Query 
+
+![image](https://user-images.githubusercontent.com/101696287/185031054-13e086e1-3047-477c-a9ba-fb6833c76dc4.png)
 
 
+Results
 
+![image](https://user-images.githubusercontent.com/101696287/185031099-ee24837a-cfd8-4206-aebf-cb9d1c6ba8c5.png)
+![image](https://user-images.githubusercontent.com/101696287/185031138-5285131e-29cf-4094-87e9-4293cb7f181b.png)
+
+
+TASK C. Realizar un tablero para visualizar información de empleados 
